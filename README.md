@@ -23,7 +23,7 @@ Customers can explore the cake collection and submit personalised requests. The 
 ![Owner request details](docs/screenshots/request-details.png)
 
 ### Mobile
-<img src="docs/screenshots/mobile.png" alt="Butter & Bloom on mobile" width="320">
+<img src="docs/screenshots/responsive.png" alt="Butter & Bloom on mobile" width="320">
 ## Features
 
 ### Customer website
