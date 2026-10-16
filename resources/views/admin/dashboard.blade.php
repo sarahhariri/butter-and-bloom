@@ -1,6 +1,24 @@
 <x-admin.layout>
     <p class="bb-eyebrow mb-2">YOUR BAKERY, AT A GLANCE</p>
     <h1 class="h2 mb-0">Cake requests</h1>
+
+    <div class="row g-3 mt-2 mb-4">
+    @foreach ([
+        'total' => 'Total requests',
+        'pending' => 'Pending',
+        'confirmed' => 'Confirmed',
+        'completed' => 'Completed',
+    ] as $key => $label)
+        <div class="col-6 col-lg-3">
+            <div class="bb-stat-card bb-stat-{{ $key }} p-3 p-md-4 h-100">
+                <p class="small mb-2">{{ $label }}</p>
+                <p class="bb-stat-number mb-0">
+                    {{ number_format($stats[$key]) }}
+                </p>
+            </div>
+        </div>
+    @endforeach
+</div>
     <form action="{{ route('admin.dashboard') }}" method="GET"
       class="row g-2 mt-3">
 
@@ -73,7 +91,7 @@
                     </span>
                 </div>
 
-                <h2 class="h5 mb-1">
+                <h2 class="h5 mb-3">
                     {{ $order->customer_name }}
                 </h2>
 

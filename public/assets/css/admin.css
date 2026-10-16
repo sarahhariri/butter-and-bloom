@@ -260,3 +260,30 @@
         transition: none;
     }
 }
+.bb-stat-card {
+    border: 1px solid #efd3dc;
+    border-radius: 20px;
+    color: var(--bb-brown);
+}
+
+.bb-stat-total {
+    background: #fffdf9;
+}
+
+.bb-stat-pending {
+    background: #fff4e2;
+}
+
+.bb-stat-confirmed {
+    background: #fff0f4;
+}
+
+.bb-stat-completed {
+    background: #eef5ee;
+}
+
+.bb-stat-number {
+    font-family: "Lora", serif;
+    font-size: 2rem;
+    line-height: 1.2;
+}

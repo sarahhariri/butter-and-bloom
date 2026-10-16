@@ -44,9 +44,16 @@ class DashboardController extends Controller
         ->paginate(10)
         ->withQueryString();
 
+        $stats = [
+    'total' => CakeOrder::count(),
+    'pending' => CakeOrder::where('status', 'pending')->count(),
+    'confirmed' => CakeOrder::where('status', 'confirmed')->count(),
+    'completed' => CakeOrder::where('status', 'completed')->count(),
+];
+
     return view(
         'admin.dashboard',
-        compact('orders', 'filters', 'status', 'search')
+        compact('orders', 'filters', 'status', 'search', 'stats')
     );
 }
     public function show(CakeOrder $order)
