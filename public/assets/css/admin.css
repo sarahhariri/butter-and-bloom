@@ -1,0 +1,262 @@
+.bb-admin-header {
+    background: #fffdf9;
+    border-bottom: 1px solid #efd3dc;
+}
+
+.bb-admin-brand {
+    color: var(--bb-brown);
+    font-family: "Lora", serif;
+    font-size: 1.2rem;
+}
+
+.bb-admin-site-link {
+    color: var(--bb-brown);
+}
+
+.bb-admin-site-link:hover {
+    color: var(--bb-dark-pink);
+}
+
+.bb-admin-logout {
+    background: var(--bb-soft-pink);
+    border: 1px solid #e9bccd;
+    color: var(--bb-brown);
+}
+
+.bb-admin-logout:hover {
+    background: var(--bb-pink);
+    border-color: var(--bb-pink);
+    color: var(--bb-brown);
+}
+.bb-admin-order {
+    background: #fffdf9;
+    border: 1px solid #efd3dc;
+    border-radius: 22px;
+}
+
+.bb-request-status {
+    background: var(--bb-soft-pink);
+    color: var(--bb-brown);
+}
+
+.bb-admin-order hr {
+    border-color: #e9bccd;
+    opacity: 0.6;
+}
+.bb-request-notes {
+    white-space: pre-line;
+}
+.bb-admin-reference {
+    max-height: 360px;
+    border-radius: 16px;
+    object-fit: contain;
+}
+.bb-admin-order .form-control,
+.bb-admin-order .form-select {
+    background-color: #fffafc;
+    border-color: #e9bccd;
+    border-radius: 14px;
+    color: var(--bb-brown);
+}
+
+.bb-admin-order .form-control:focus,
+.bb-admin-order .form-select:focus {
+    border-color: var(--bb-dark-pink);
+    box-shadow: 0 0 0 3px rgba(196, 71, 117, 0.12);
+}
+
+.bb-status-pending {
+    background: #fff0d9;
+    color: #805a20;
+}
+
+.bb-status-confirmed {
+    background: #ffe1ea;
+    color: #943653;
+}
+
+.bb-status-completed {
+    background: #e8f3e9;
+    color: #365b40;
+}
+
+.bb-status-cancelled {
+    background: #f0ecea;
+    color: #6f625d;
+}
+
+.bb-customer-phone {
+    background: #fff0f4;
+    border: 1px solid #efd3dc;
+    color: #943653;
+    font-size: 0.9rem;
+    font-weight: 700;
+    transition: background-color 0.25s ease;
+}
+
+.bb-customer-phone:hover {
+    background: var(--bb-soft-pink);
+    color: var(--bb-brown);
+}
+
+.bb-customer-phone:focus-visible {
+    outline: 2px solid var(--bb-dark-pink);
+    outline-offset: 3px;
+}
+
+.bb-request-filter {
+    background: #fffdf9;
+    border: 1px solid #efd3dc;
+    color: var(--bb-brown);
+    font-size: 0.9rem;
+}
+
+.bb-request-filter:hover {
+    background: #fff0f4;
+    border-color: #ce8da5;
+    color: var(--bb-brown);
+}
+
+.bb-request-filter.is-active {
+    background: var(--bb-soft-pink);
+    border-color: var(--bb-dark-pink);
+    color: var(--bb-brown);
+}
+
+.bb-request-filter:focus-visible {
+    outline: 2px solid var(--bb-dark-pink);
+    outline-offset: 3px;
+}
+.bb-request-search {
+    background: #fffdf9;
+    border-color: #efd3dc;
+    border-radius: 16px;
+    color: var(--bb-brown);
+}
+
+.bb-request-search:focus {
+    background: #fffafc;
+    border-color: var(--bb-dark-pink);
+    box-shadow: 0 0 0 3px rgba(196, 71, 117, 0.12);
+}
+
+.bb-admin-order .table {
+    --bs-table-bg: transparent;
+    --bs-table-color: var(--bb-brown);
+    --bs-table-border-color: #efd3dc;
+}
+.bb-admin-order .form-check-input:checked {
+    background-color: var(--bb-dark-pink);
+    border-color: var(--bb-dark-pink);
+}
+
+.bb-admin-order .form-check-input:focus {
+    border-color: var(--bb-dark-pink);
+    box-shadow: 0 0 0 3px rgba(196, 71, 117, 0.12);
+}
+
+.bb-admin-cake-thumb {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.bb-admin-delete {
+    background: #fff5f6;
+    border: 1px solid #e6bcc6;
+    color: #973653;
+}
+
+.bb-admin-delete:hover {
+    background: #f8e0e6;
+    border-color: #c86583;
+    color: #7c2943;
+}
+
+.bb-admin-delete:focus-visible {
+    outline: 2px solid #973653;
+    outline-offset: 3px;
+}
+.bb-admin-confirm {
+    border: 1px solid #efd3dc;
+    border-radius: 26px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.bb-admin-confirm .swal2-title {
+    font-family: "Lora", serif;
+    font-size: 1.65rem;
+}
+.bb-status-choice {
+    background: #fffdf9;
+    border: 1px solid #efd3dc;
+    color: var(--bb-brown);
+    font-size: 0.9rem;
+}
+
+.bb-status-dot {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin-right: 6px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.bb-dot-pending   { background: #b58a36; }
+.bb-dot-confirmed { background: #c44775; }
+.bb-dot-completed { background: #528363; }
+.bb-dot-cancelled { background: #8a7c76; }
+
+.btn-check + .bb-status-choice:hover {
+    background: #fff0f4;
+    border-color: #dba4b7;
+    color: var(--bb-brown);
+}
+
+.btn-check:checked + .bb-status-choice {
+    background: var(--bb-soft-pink);
+    border-color: var(--bb-dark-pink);
+    color: var(--bb-brown);
+}
+
+.btn-check:focus-visible + .bb-status-choice {
+    outline: 2px solid var(--bb-dark-pink);
+    outline-offset: 3px;
+}
+.bb-header-action {
+    min-height: 44px;
+    border: 1px solid #e9bccd;
+    color: var(--bb-brown);
+    font-size: 0.85rem;
+    font-weight: 600;
+    white-space: nowrap;
+    transition: background-color 0.25s ease,
+                border-color 0.25s ease;
+}
+
+.bb-header-website {
+    background: #fffdf9;
+}
+
+.bb-header-signout {
+    background: #fff0f4;
+}
+
+.bb-header-action:hover {
+    background: var(--bb-soft-pink);
+    border-color: #ce8da5;
+    color: var(--bb-brown);
+}
+
+.bb-header-action:focus-visible {
+    outline: 2px solid var(--bb-dark-pink);
+    outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .bb-header-action {
+        transition: none;
+    }
+}
