@@ -4,6 +4,26 @@ A responsive cake bakery website built with Laravel, Blade, Bootstrap and JavaSc
 
 Customers can explore the cake collection and submit personalised requests. The bakery owner manages cakes, flavours, requests, pickup availability and FAQs through a protected admin dashboard.
 
+
+## Screenshots
+
+### Home
+![Butter & Bloom homepage](docs/screenshots/home.png)
+
+### Cake Collection
+![Cake collection](docs/screenshots/cake-collection.png)
+
+### Custom Order
+![Custom cake request form](docs/screenshots/custom-order.png)
+
+### Owner Dashboard
+![Request statistics and management](docs/screenshots/dashboard.png)
+
+### Request Details
+![Owner request details](docs/screenshots/request-details.png)
+
+### Mobile
+<img src="docs/screenshots/mobile.png" alt="Butter & Bloom on mobile" width="320">
 ## Features
 
 ### Customer website
